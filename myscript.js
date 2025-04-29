@@ -6,5 +6,5 @@ window.addEventListener("load", function () {
   setTimeout(() => {
     loader.style.display = "none";
     content.style.display = "block";
-  }, 2000); // 2 seconds delay
+  }, 2000); 
 });
