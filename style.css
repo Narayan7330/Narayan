@@ -1,3 +1,11 @@
+/* body {
+  background: linear-gradient(to bottom right, #fef9f4, #f0f5f9);
+  font-family: "JetBrains Mono", monospace;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+} */
+
 #wholeContent{
   display: flex;
   flex-direction: column;
@@ -6,12 +14,17 @@
   width: 100%;
   font-family: "fira-code", monospace;
 }
- h1{
-  padding-right: 100px;
- }
+
  ul {
-  text-align: center;
-  list-style-position: inside;
+  
+    list-style: disc;
+    list-style-position: outside; /* ensures bullets don't shift text */
+    margin: 1rem auto;
+    padding-left: 1.5rem;
+    font-size: 20px;
+    text-align: left;
+    width: fit-content;
+
 }
 
 #loader {
@@ -20,7 +33,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0a0a0a; /* Dark background */
+  background: #8c8a8c; /* Dark background */
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -28,4 +41,62 @@
   font-family: "JetBrains Mono", monospace;
   font-size: 1.5rem;
   z-index: 1000;
+}
+
+
+.intro{
+padding-right: 258px;
+padding-top: 30px;
+
+}
+#aboutMe{
+  padding-right: 412px;
+}
+
+#experience{
+  padding-right: 380px;
+}
+#projects{
+  padding-right: 410px;
+}
+#currentLearning{
+  padding-right: 240px;
+}
+#getInTouch{
+  padding-right: 348px;
+}
+
+#introText{
+  padding-right: 40px;
+  
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: var(--line-height);
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+#aboutMetext{
+  padding-left: 230px;
+  
+}
+#experiencetext{
+  padding-left: 90px;
+}
+.projectspositioning{
+
+padding-right: 200px;
+}
+
+.learningpositioning{
+  padding-right: 94px;
+}
+.getInTouchpositionning{
+  padding-right: 470px;
 }
